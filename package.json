@@ -5,6 +5,7 @@
   "author": "Ming-der Wang",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "uuid": "^8.3.2"
   }
