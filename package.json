@@ -1,12 +1,18 @@
 {
-  "name": "test1",
+  "name": "payapi",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "api/index.js",
   "author": "Ming-der Wang",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "micro": "^9.3.4",
+    "microauth-github": "^0.0.4",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "micro"
   }
 }
